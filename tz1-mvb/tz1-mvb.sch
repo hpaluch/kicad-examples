@@ -85,7 +85,7 @@ U 1 1 60772DBF
 P 3050 2500
 F 0 "Q2" H 3241 2546 50  0000 L CNN
 F 1 "BC547" H 3241 2455 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92" H 3250 2425 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92" H 2900 2050 50  0000 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/BC550-D.pdf" H 3050 2500 50  0001 L CNN
 	1    3050 2500
 	1    0    0    -1  
@@ -129,7 +129,7 @@ U 1 1 60776D93
 P 3800 2200
 F 0 "RV1" H 3730 2246 50  0000 R CNN
 F 1 "50k/N" H 3730 2155 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Piher_PC-16_Single_Horizontal" H 3800 2200 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Piher_PC-16_Single_Horizontal" H 4600 1300 50  0000 C CNN
 F 3 "~" H 3800 2200 50  0001 C CNN
 	1    3800 2200
 	1    0    0    -1  
@@ -216,7 +216,7 @@ U 1 1 60780564
 P 4800 1300
 F 0 "J1" H 4880 1342 50  0000 L CNN
 F 1 "Conn_01x03" H 4880 1251 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 4800 1300 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 5650 1600 50  0000 C CNN
 F 3 "~" H 4800 1300 50  0001 C CNN
 	1    4800 1300
 	1    0    0    -1  
@@ -321,7 +321,7 @@ U 1 1 60786660
 P 5300 2200
 F 0 "J2" H 5120 2218 50  0000 R CNN
 F 1 "AudioJack2_Ground" H 5120 2127 50  0000 R CNN
-F 2 "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal" H 5300 2200 50  0001 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal" H 4600 2450 50  0000 C CNN
 F 3 "~" H 5300 2200 50  0001 C CNN
 	1    5300 2200
 	-1   0    0    -1  
