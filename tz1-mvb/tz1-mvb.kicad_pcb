@@ -610,8 +610,8 @@
     )
   )
 
-  (gr_text "PCB Rev 1.0" (at -22.86 -54.61) (layer F.Cu)
-    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  (gr_text "PCB Rev 1.0" (at 15.24 -43.18 90) (layer B.Cu)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
   (dimension 48.26 (width 0.15) (layer Dwgs.User)
     (gr_text "48.260 mm" (at -6.35 -13.94) (layer Dwgs.User)
