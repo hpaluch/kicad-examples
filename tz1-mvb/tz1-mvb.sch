@@ -243,16 +243,10 @@ F 3 "" H 3800 1000 50  0001 C CNN
 	1    3800 1000
 	1    0    0    -1  
 $EndComp
-Connection ~ 3800 2850
-Wire Wire Line
-	4900 2200 4900 2100
-Wire Wire Line
-	4500 2200 4900 2200
 Wire Wire Line
 	4600 1300 4500 1300
 Wire Wire Line
 	4500 1300 4500 2200
-Connection ~ 4500 2200
 Wire Wire Line
 	4600 1400 3850 1400
 Wire Wire Line
@@ -313,28 +307,6 @@ Text Label 4350 1200 0    50   ~ 0
 VCC
 Text Label 4200 1400 0    50   ~ 0
 GND
-Text Label 4550 2200 0    50   ~ 0
+Text Label 4500 1800 1    50   ~ 0
 WAVE_OUT
-$Comp
-L Connector:AudioJack2_Ground J2
-U 1 1 60786660
-P 5300 2200
-F 0 "J2" H 5120 2218 50  0000 R CNN
-F 1 "AudioJack2_Ground" H 5120 2127 50  0000 R CNN
-F 2 "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal" H 4600 2450 50  0000 C CNN
-F 3 "~" H 5300 2200 50  0001 C CNN
-	1    5300 2200
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	5300 2850 5300 2400
-Wire Wire Line
-	3800 2850 5300 2850
-Wire Wire Line
-	4900 2200 5100 2200
-Connection ~ 4900 2200
-Wire Wire Line
-	4900 2100 5100 2100
-Text Label 4600 2850 0    50   ~ 0
-GND
 $EndSCHEMATC
