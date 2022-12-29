@@ -3,5 +3,6 @@
 *.swp
 *.tmp
 *-bak
+*-cache
 
 
